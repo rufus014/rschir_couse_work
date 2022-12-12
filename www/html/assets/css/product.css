@@ -1,0 +1,176 @@
+main
+{
+    width: 100%;
+    padding-top: 9vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#book
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#photo
+{
+    width: 50%;
+    padding-right: 30px;
+
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#description
+{
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;
+}
+
+#text
+{
+    width: 400px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+#info
+{
+    font-size: 15px;
+    margin: 30px 0;
+
+    text-align: left;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#list 
+{
+    margin-right: 35px;
+}
+
+#list p
+{
+    color: silver;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+#parametrs p
+{
+    margin: 5px 0;
+}
+
+#price
+{
+    font-size: 20px;
+}
+
+#cart_btn
+{
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #d6ca23;
+    border-radius: 25px;
+    font-size: larger;
+    background-color: #d6ca23;
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+#cart_btn:hover
+{
+    transform: scale(1.1);
+
+}
+
+#comment
+{
+    width: 50%;
+    padding-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#comment h3
+{
+    width: 590px;
+    text-align: start;
+}
+
+#com
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#com div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#userName,
+#grade,
+#textarea
+{
+    width: 550px;
+    height: 40px;
+    background-color: #323b47;
+    color: silver;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+#textarea
+{
+    height: 200px;
+}
+
+#commentButton
+{
+    height: 64px;
+    width: 40px;
+    border: 1px solid #d6ca23;
+    border-radius: 25px;
+    font-size: larger;
+    background-color: #d6ca23;
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+#commentButton:hover
+{
+    transform: scale(1.1);
+
+}
+
+#com_area
+{
+    width: 550px;
+    height: max-content;
+    margin-right: 40px;
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: #323b47;
+    color: silver;
+    text-align: start;
+}
